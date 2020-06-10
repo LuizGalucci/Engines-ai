@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5736325491038528845}
   - component: {fileID: 5744507038916965447}
   - component: {fileID: 5694290803899103243}
+  - component: {fileID: 8148014517857472407}
   m_Layer: 0
   m_Name: House_2
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5758325912518679339}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000028461216}
+  m_LocalRotation: {x: -0, y: -1, z: 0, w: -0.0000001872535}
   m_LocalPosition: {x: -117.416, y: 14.7853, z: -282.69}
   m_LocalScale: {x: 3.1285, y: 3.1285, z: 3.1285}
   m_Children: []
@@ -93,3 +94,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.9622893, y: 4.249435, z: 5.6193337}
   m_Center: {x: 0.0000004172325, y: 2.1611307, z: 0.000006198883}
+--- !u!208 &8148014517857472407
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5758325912518679339}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.9810001, y: 2.125, z: 2.8100002}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 2.161, z: 0}
+  m_TimeToStationary: 0.5

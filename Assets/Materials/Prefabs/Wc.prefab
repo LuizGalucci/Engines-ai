@@ -91,6 +91,7 @@ GameObject:
   - component: {fileID: 9107060160298774255}
   - component: {fileID: 9098364839355146479}
   - component: {fileID: 9146874148027057475}
+  - component: {fileID: 8120696280541663485}
   m_Layer: 0
   m_Name: Wc
   m_TagString: Untagged
@@ -105,7 +106,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9084331202697751751}
-  m_LocalRotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -162.51999, y: 14.7853, z: -303.53}
   m_LocalScale: {x: 3.1285, y: 3.1285, z: 3.1285}
   m_Children:
@@ -173,3 +174,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1813451, y: 2.3410382, z: 1.2852355}
   m_Center: {x: -0.0008675456, y: 1.1617153, z: 0.03302735}
+--- !u!208 &8120696280541663485
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9084331202697751751}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.591, y: 1.171, z: 0.643}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.001, y: 1.1620001, z: 0.033}
+  m_TimeToStationary: 0.5

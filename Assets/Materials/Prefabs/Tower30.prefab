@@ -135,6 +135,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1605518827023306902}
+  - component: {fileID: 8606022870030657782}
   m_Layer: 0
   m_Name: Tower30
   m_TagString: Untagged
@@ -151,9 +152,25 @@ Transform:
   m_GameObject: {fileID: 1609197237583205532}
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
   m_LocalPosition: {x: -209.04001, y: 14.7853, z: -328.32}
-  m_LocalScale: {x: 0.37542, y: 0.37542, z: 0.37542}
+  m_LocalScale: {x: 1.2392238, y: 0.37542, z: 1.0541043}
   m_Children:
   - {fileID: 1610366272153215884}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+--- !u!208 &8606022870030657782
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609197237583205532}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5

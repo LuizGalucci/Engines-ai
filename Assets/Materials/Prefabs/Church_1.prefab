@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2235523751818733231}
   - component: {fileID: 2246351504484013823}
   - component: {fileID: 2277357518336268515}
+  - component: {fileID: 7177847192492092142}
   m_Layer: 0
   m_Name: Church_1
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2268337706564359049}
-  m_LocalRotation: {x: -0, y: -0.000000014901161, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -141.82, y: 14.7853, z: -289.57}
   m_LocalScale: {x: 3.1285, y: 3.1285, z: 3.1285}
   m_Children: []
@@ -94,3 +95,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300006, guid: 2efab142ea16dc343808953982735a99, type: 3}
+--- !u!208 &7177847192492092142
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2268337706564359049}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3.1780002, y: 6.2120004, z: 6.668}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 6.2450004, z: 0}
+  m_TimeToStationary: 0.5
