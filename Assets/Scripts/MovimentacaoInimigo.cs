@@ -13,7 +13,7 @@ public class MovimentacaoInimigo : MonoBehaviour
     }
 
     void Update() {
-        Vector3 posicaoJogador = FirstPersonWalker.pontoChao;
+        Vector3 posicaoJogador = ThirdPersonWalker.pontoChao;
         Debug.Log (posicaoJogador);
         agenteNM.SetDestination(posicaoJogador);
 
