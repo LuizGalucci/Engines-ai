@@ -515,7 +515,7 @@ PrefabInstance:
     - target: {fileID: 5930651934574693639, guid: 7bf201eb93a64ab47857ce81b796a258,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.93
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: 5930651934574693639, guid: 7bf201eb93a64ab47857ce81b796a258,
         type: 3}
@@ -22729,8 +22729,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadeMov: 20
-  deslocamentoAltura: 1
-  intensidadePulo: 0
+  deslocamentoAltura: 2
+  intensidadePulo: 5
   camadaChao:
     serializedVersion: 2
     m_Bits: 1024

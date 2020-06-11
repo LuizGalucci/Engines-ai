@@ -31,7 +31,7 @@ public class IA : MonoBehaviour
             estado = EstadoIA.Andando;
         }
 
-        controladorAnimacao.SetFloat("velocidade", agenteNM.velocity.magnitude);
+        controladorAnimacao.SetFloat("Velocidade", agenteNM.velocity.magnitude);
 
         if (vida.vida <= 0) {
             Destroy(gameObject);

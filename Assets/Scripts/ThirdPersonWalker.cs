@@ -54,7 +54,7 @@ public class ThirdPersonWalker : MonoBehaviour
         estaEmMovimento = mov.magnitude > 0.1f;
 
         // ataque
-        if (apertouAtaque && !estaEmPulo) {
+        if (apertouAtaque) {
             anim.SetTrigger("atacou");
 
 
@@ -87,7 +87,7 @@ public class ThirdPersonWalker : MonoBehaviour
         anim.SetBool("estaNoChao", estaNoChao);
 
         // acompanhar chão
-        if (!estaEmPulo) {
+         {
             RaycastHit hit;
             bool rcBateuNoChao = Physics.Raycast(
                 tr.position,
