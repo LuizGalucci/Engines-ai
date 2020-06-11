@@ -29,8 +29,7 @@ public class ThirdPersonWalker : MonoBehaviour
     void FixedUpdate() {
         // receber dados de entrada do jogador
         bool apertouPulo = Input.GetButtonDown("Jump");
-        if(apertouAtaque)
-         Debug.Log("apertouPulo o ataque: " + apertouAtaque.ToString());
+        
 
         bool apertouAtaque = Input.GetButtonDown("Fire1");
 
