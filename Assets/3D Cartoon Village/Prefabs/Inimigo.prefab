@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 1000
+  efeitoSonoroDano: 2
 --- !u!1001 &5728264040620574540
 PrefabInstance:
   m_ObjectHideFlags: 0
