@@ -13,11 +13,8 @@ public class Portal : MonoBehaviour
 
     static bool deveRetornar;
     static int idRetorno;
-
-    Color transparente = new Color(0, 0, 0, 0);
-
     void Start() {
-        Time.timeScale = 1;
+        
         if (deveRetornar && id == idRetorno) {
             GameObject jogadorGbj = GameObject.FindWithTag("Player");
             Transform jogadorTr = jogadorGbj.GetComponent<Transform>();
@@ -26,21 +23,16 @@ public class Portal : MonoBehaviour
         }
     }
 
+   
     void OnTriggerEnter(Collider col) {
         if (col.tag == "Player") {
-            Time.timeScale = 0;
+    
             if (deveAtivarRetorno) {
                 deveRetornar = true;
             }
             idRetorno = id;
-            StartCoroutine(CarregarCena());
+           SceneManager.LoadScene(cenaAlvo);
         }
     }
-
-    IEnumerator CarregarCena() {
-        Transicao transicao = FindObjectOfType<Transicao>();
-        transicao.IniciarTransicao(transparente, Color.black);
-        yield return new WaitUntil(() => transicao.acabou);
-        SceneManager.LoadScene(cenaAlvo);
-    }
 }
+    
