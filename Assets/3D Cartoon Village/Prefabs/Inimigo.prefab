@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   estado: 0
-  dano: 0
+  dano: 100
   controladorAnimacao: {fileID: 0}
 --- !u!114 &1187649955
 MonoBehaviour:
